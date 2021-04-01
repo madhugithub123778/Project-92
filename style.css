@@ -1,0 +1,130 @@
+body{
+background-position: center;background-size: cover;background-repeat: no-repeat;}
+
+.login_div1{
+background: lightblue; border-style: ridge;border-color: mediumslateblue;
+padding: 10px;
+		float: none;
+        border-radius: 15px;
+        box-shadow: 10px 10px 25px purple;
+
+}
+
+.login_div2{
+    background: lightblue; border-style: ridge;border-color: teal;
+    padding: 10px;
+            float: none;
+            border-radius: 15px;
+            box-shadow: 10px 10px 25px navy;
+    
+    }
+
+
+#welcome{
+font-family: fantasy;border: 3px solid black;width: 200px; padding: 10px;border-radius: 20px;
+background-color: whitesmoke;box-shadow: 5px 5px 15px black;
+
+}
+
+
+.title{
+    font-size: 40px;width: 50%;border: 6px solid lightgreen;border-style:double;
+    
+    }
+
+    button{
+        transition-duration: 0.4s;background-color: green;color: white; font-weight: bold;border: 2px solid green; border-radius: 20px;height: 50px}
+
+    button:hover{
+background-color: white;color: green;
+
+    }
+
+    #player1_name
+{
+	display: inline-block;color: purple;font-weight: bold;font-family: 'Courier New', Courier, monospace;
+}
+#player2_name
+{
+	display: inline-block;color: blue;font-weight: bold;font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+font-family:'Courier New', Courier, monospace;
+
+}
+    
+
+.number1_div{
+    background: lightblue; border-style: ridge;border-color: mediumslateblue;
+    padding: 10px;
+            float: none;
+            border-radius: 15px;
+            box-shadow: 10px 10px 25px green;
+    width: 800px;
+    }
+    
+    .number2_div{
+        background: lightblue; border-style: ridge;border-color: teal;
+        padding: 10px;
+                float: none;
+                border-radius: 15px;
+                box-shadow: 10px 10px 25px teal;
+        width: 800px;
+        }
+#head{
+    font-size: 40px;width: 50%;border: 6px solid purple;border-style:double;
+margin-top: 0px;font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.send_button{
+    transition-duration: 0.4s;background-color: rebeccapurple;color: white; font-weight: bold;border: 2px solid rebeccapurple; border-radius: 20px;height: 50px}
+
+    .send_button:hover{
+background-color: white;color: rebeccapurple;
+
+
+}
+
+
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid darkblue;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+#number1_input
+{
+	display: inline-block;color: green;font-weight: bold;font-family: 'Courier New', Courier, monospace;
+}
+#number2_input
+{
+	display: inline-block;color: teal;font-weight: bold;font-family: 'Courier New', Courier, monospace;
+}
+.back_button{
+    transition-duration: 0.4s;background-color: navy;color: white; font-weight: bold;border: 2px solid navy; border-radius: 20px;height: 50px}
+
+    .back_button:hover{
+background-color: white;color: navy;
+
+
+}
+
+#name1, #name2{
+    display: inline-block;
+    margin-left: 20px;
+    color: red;
+    font-weight: bold;
+    }
+
+#player_questioner, #player_answerer{
+    color: darkmagenta;
+    font-weight: bold;
+
+}
